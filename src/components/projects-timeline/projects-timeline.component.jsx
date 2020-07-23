@@ -27,7 +27,7 @@ export default function TimeLine() {
       <Timeline>
         <Events>
           {/* Project: Smart Brain */}
-          <ImageEvent date="AnanyaEngineers" className="text-center" text="Set Trend" src={AnanyaEngineers} alt="">
+          <ImageEvent date="setTrend" className="text-center" text="Set Trend" src={AnanyaEngineers} alt="">
             <div className="d-flex justify-content-between flex-column mt-1">
               <div>
                 <Accordion>
