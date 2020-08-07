@@ -3,6 +3,7 @@ import { Timeline, Events, UrlButton, ImageEvent } from "@merc/react-timeline";
 import AnanyaEngineers from "../../assets/img/projects/ananyaengineers.PNG";
 import seoblog from "../../assets/img/projects/seoblog.PNG";
 import task_manager from "../../assets/img/projects/task-manager.jpg";
+import Netflix from "../../assets/img/projects/netflix.PNG";
 import L_PortfolioUsingDjango from "../../assets/img/projects/portfolioUsingDjango.webp";
 import Accordion from "react-bootstrap/Accordion";
 import Card from "react-bootstrap/Card";
@@ -83,7 +84,7 @@ export default function TimeLine() {
 
           {/* Project: RoboFriends */}
 
-          <ImageEvent date="14/01/2020" className="text-center" text="seoblog" src={seoblog} alt="Robo Friends">
+          <ImageEvent date="seoblog" className="text-center" text="seoblog" src={seoblog} alt="Robo Friends">
             <div className="d-flex justify-content-between flex-column mt-1">
               <div>
                 <Accordion>
@@ -147,7 +148,7 @@ export default function TimeLine() {
 
           {/* Project: Product_Hunt_Clone */}
 
-          <ImageEvent date="15/12/2019" className="text-center" text="task-manager" src={task_manager} alt="Product Hunt Clone">
+          <ImageEvent date="task_manager" className="text-center" text="task-manager" src={task_manager} alt="Product Hunt Clone">
             <div className="d-flex justify-content-between flex-column mt-1">
               <div>
                 <Accordion>
@@ -213,7 +214,7 @@ export default function TimeLine() {
           </ImageEvent>
 
           {/* Project: Portfolio using Django */}
-          <ImageEvent date="07/12/2019" className="text-center" text="Portfolio using Django" src={AnanyaEngineers} alt="Portfolio using Django">
+          <ImageEvent date="Netflixapp" className="text-center" text="Netflix" src={Netflix} alt="Portfolio using Django">
             <div className="d-flex justify-content-between flex-column mt-1">
               <div>
                 <Accordion>
@@ -285,10 +286,10 @@ export default function TimeLine() {
                 </Accordion>
               </div>
               <div className="d-flex justify-content-between flex-nowrap text-center">
-              <UrlButton href="" target="_blank">
+              <UrlButton href="https://master.d1g8aix17bskhs.amplifyapp.com/" target="_blank">
                   SEE LIVE
                 </UrlButton>
-                <UrlButton href="" target="_blank">
+                <UrlButton href="https://github.com/shivaprasadgit/netflix-clone" target="_blank">
                   SOURCE CODE
                 </UrlButton>
               </div>
@@ -298,7 +299,7 @@ export default function TimeLine() {
 
   {/* Project: Product_Hunt_Clone */}
 
-  <ImageEvent date="15/12/2019" className="text-center" text="Netflix" src={AnanyaEngineers} alt="Product Hunt Clone">
+  {/* <ImageEvent date="15/12/2019" className="text-center" text="Netflix" src={AnanyaEngineers} alt="Product Hunt Clone">
             <div className="d-flex justify-content-between flex-column mt-1">
               <div>
                 <Accordion>
@@ -363,7 +364,7 @@ export default function TimeLine() {
                 </UrlButton>
               </div>
             </div>
-          </ImageEvent>
+          </ImageEvent> */}
 
 
 

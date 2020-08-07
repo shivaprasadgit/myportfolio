@@ -21,7 +21,7 @@ const About = () => {
             </Col>
             <Col xs={12} md={6}>
               <Row className=" align-items-start p-2 my-details rounded">
-                Hi there! I am <strong>&nbsp;Dabbara ShivaPrasad</strong>
+                Hi there! I am <strong>&nbsp;ShivaPrasad</strong>
                 <br />A passionate programmer, born and brought up in India. I am a Full Stack Web Developer with Javascript,React.js, Node.js , Express.js, and MongoDB as my tech stack.
                 <br />
              
@@ -39,9 +39,9 @@ const About = () => {
                     </a>
                   </div>
                   <div>
-                    <a href="" target="_blank" rel="noopener noreferrer">
+                    <a href="../../assets/Myfiles/my-resume2.pdf" target="_blank" rel="noopener noreferrer" download>
                       <Button className="m-2" variant="outline-success">
-                        My Resume
+                        My Resume 
                       </Button>
                     </a>
                   </div>
