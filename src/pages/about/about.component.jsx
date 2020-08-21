@@ -21,8 +21,8 @@ const About = () => {
             </Col>
             <Col xs={12} md={6}>
               <Row className=" align-items-start p-2 my-details rounded">
-                Hi there! I am <strong>&nbsp;ShivaPrasad</strong>
-                <br />A passionate programmer, born and brought up in India. I am a Full Stack Web Developer with Javascript,React.js, Node.js , Express.js, and MongoDB as my tech stack.
+                Hi there! I am <strong>&nbsp;Shiva Prasad</strong>
+                <br />I am a Full Stack Web Developer with Javascript ,React.js, Redux, Node.js , Express.js, and MongoDB as my tech stack.
                 <br />
              
               
